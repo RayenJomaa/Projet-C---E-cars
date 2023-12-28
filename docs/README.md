@@ -1,5 +1,5 @@
 ﻿
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.002.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.002.jpeg)
 
 République Tunisienne
 #### Université de la Mannouba
@@ -64,7 +64,7 @@ Année universitaire : **2023-2024**
 [**Annexes**](#_bookmark51)	**26**
 
 **
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.005.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.005.png)
 
 **Table des figures**
 
@@ -113,7 +113,7 @@ Les applications de gestion jouent un rôle crucial dans la rationalisation des 
 Dans ce rapport je vais présenter mon application de gestion d’une agence de location des voitures, nommée E-cars, réalisée en langage C.
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.006.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.006.png)
 
 1. ## <a name="_bookmark1"></a>**Les structures**
    1. ### <a name="_bookmark2"></a>**Structure Date**
@@ -123,7 +123,7 @@ La structure Date est composée par 3 champs : jour qui est de type **int**, moi
 
 La figure [1](#_bookmark3) ci-jointe représente une capture d’écran du code de définition du structure Date.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.007.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.007.jpeg)
 
 <a name="_bookmark3"></a>**Fig. 1 : Code du structure Date**
 
@@ -132,16 +132,16 @@ La figure [1](#_bookmark3) ci-jointe représente une capture d’écran du code 
 La structure Voiture est composée par 5 champs : code qui est de type **int**, modele de type **char[50]**, marque de type **char[50]**, annee de type **int** qui désigne l’année de fabrication de la voiture et prixLocation de type **float**. Elle permet de stocker une voiture. La figure [2](#_bookmark5) ci-aprés représente une capture d’écran du code de définition du structure Voiture.
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.008.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.008.png)
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.009.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.009.jpeg)
 
 <a name="_bookmark5"></a>**Fig. 2 : Code du structure Voiture**
 
 1. ### <a name="_bookmark6"></a>**Structure Location**
 La structure Location est composée par 4 champs : code qui est de type **int** qui est l’identifiant de la location (nombre aléatoire composé par 9 chiffres), voitureLouee qui est de type **VOITURE \*** (un pointeur sur voiture), dateDebut de type **DATE** et dateFin de type **DATE**. Cette structure permet de stocker les détails d’une location d’une voiture donnée.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.010.jpeg)La figure [3](#_bookmark7) ci-après représente une capture d’écran du code de définition du structure Location.
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.010.jpeg)La figure [3](#_bookmark7) ci-après représente une capture d’écran du code de définition du structure Location.
 
 <a name="_bookmark7"></a>**Fig. 3 : Code du structure Location**
 
@@ -153,14 +153,14 @@ La structure Client est composée par 6 champs : prenom qui est de type **char[5
 
 La figure [4](#_bookmark9) ci-aprés représente une capture d’écran du code de définition du structure Client.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.011.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.011.jpeg)
 
 <a name="_bookmark9"></a>**Fig. 4 : Code du structure Client**
 
 1. ### <a name="_bookmark10"></a>**Structure Resultat**
 La structure Resultat est composée par 3 champs : nomClient qui est de type **char[50]**, prenomClient de type **char[50]** et nbLocations de type **int**. Cette structure permet de stocker le nombre de locations pour chaque client.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.012.jpeg)La figure [5](#_bookmark11) ci-jointe désigne une capture d’écran du code de définition du structure  Resultat.
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.012.jpeg)La figure [5](#_bookmark11) ci-jointe désigne une capture d’écran du code de définition du structure  Resultat.
 
 <a name="_bookmark11"></a>**Fig. 5 : Code du structure Resultat**
 
@@ -170,25 +170,25 @@ Notre application est composée par un menu principal constitué par : La gestio
 
 La figure [6](#_bookmark13) ci-jointe représente le menu principal de notre application.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.013.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.013.png)
 
 <a name="_bookmark13"></a>**Fig. 6 : Menu principal**
 
 En choisissant une option, un sous menu apparait au chef d’agence pour manipuler soit les voitures soit les clients. Ci-après, la figure [7](#_bookmark14) renseigne le menu de la gestion des clients.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.014.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.014.png)
 
 <a name="_bookmark14"></a>**Fig. 7 : Menu de la gestion des clients**
 
 Et la figure [8](#_bookmark15) illustre le menu de la gestion des voitures.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.015.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.015.png)
 
 <a name="_bookmark15"></a>**Fig. 8 : Menu de la gestion des voitures**
 
 **Notez bien** : Il y’a une navigation entre les menus ; si le chef d’agence est dans le menu de la gestion des clients il peut revenir au menu principal comme le montre la figure [9](#_bookmark16).
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.016.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.016.png)
 
 <a name="_bookmark16"></a>**Fig. 9 : La navigation entre les menus.**
 
@@ -196,7 +196,7 @@ Et la figure [8](#_bookmark15) illustre le menu de la gestion des voitures.
 1. ## <a name="_bookmark17"></a>**Les prototypes**
 La figure [10](#_bookmark19) ci-après illustre les prototypes des fonctions de notre application.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.017.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.017.jpeg)
 
 
 
@@ -208,20 +208,20 @@ La fonction **realloc** en langage C est utilisée pour modifier la taille de la
 Dans notre cas, nous avons utilisé **realloc** pour redimentionner le tableau des voitures. Si le chef d’agence veut ajouter des voitures supplémentaires en plus de sa base de données, il peut le faire grace à la fonction realloc.
 
 Ci-dessous, nous avons présenter dans la figure [11](#_bookmark20) la capture d’écran de la fonction
-##### ![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.018.png)**reallocVoiture**.
+##### ![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.018.png)**reallocVoiture**.
 
 <a name="_bookmark20"></a>**Fig. 11 : Fonction realloc**
 
 1. ## <a name="_bookmark21"></a>**Tableau dynamique d’adresses**
 Lors du développement du mon application, j’ai recours à utiliser un tableau    dynamique d’adresses de structure RESULTAT.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.019.png)J’ai déclaré le tableau et allouer de l’espace mémoire de cette façon comme le montre la figure [14](#_bookmark24).
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.019.png)J’ai déclaré le tableau et allouer de l’espace mémoire de cette façon comme le montre la figure [14](#_bookmark24).
 
 <a name="_bookmark22"></a>**Fig. 12 : Déclaration et allocation du tableau dynamique d’adresses**
 
 La figure ci-après illustre le remplissage du tableau dynamique **tableauResultats**.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.020.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.020.png)
 
 
 
@@ -233,27 +233,27 @@ La figure ci-après illustre le remplissage du tableau dynamique **tableauResult
 
 <a name="_bookmark23"></a>**Fig. 13 : Remplissage du tableau résultat**
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.021.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.021.png)
 
 <a name="_bookmark24"></a>**Fig. 14 : Prototype de fonction du remplissage du tableau résultat**
 1. ## <a name="_bookmark25"></a>**Les fichiers**
 J’ai utilisé deux fichiers binaires ; fichier Clients et fichier ClientsIndex. Le fichier Clients stocke les données des clients de l’agence alors que ClientsIndex stocke la position du curseur dans le fichier Clients. Les figures ci-après représente les fonctions de gestion des fichiers.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.022.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.022.jpeg)
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.023.jpeg)<a name="_bookmark26"></a>**Fig. 15 : Création du fichier**
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.023.jpeg)<a name="_bookmark26"></a>**Fig. 15 : Création du fichier**
 
 <a name="_bookmark27"></a>**Fig. 16 : Remplissage du fichier**
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.024.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.024.jpeg)
 
 <a name="_bookmark28"></a>**Fig. 17 : Affichage du fichier**
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.025.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.025.jpeg)
 
 <a name="_bookmark29"></a>**Fig. 18 : Lecture d’un client du fichier**
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.026.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.026.jpeg)
 
 <a name="_bookmark30"></a>**Fig. 19 : Ecriture d’un client dans un fichier** 
 
@@ -268,7 +268,7 @@ J’ai utilisé deux fichiers binaires ; fichier Clients et fichier ClientsIndex
 
 La figure [20](#_bookmark31) représente l’affichage du contenu du fichier Clients. 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.027.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.027.png)
 
 **Fig. 20 : Affichage du fichier clients**
 
@@ -281,7 +281,7 @@ La figure [20](#_bookmark31) représente l’affichage du contenu du fichier Cli
 
 <a name="_bookmark31"></a>Ci-jointe, la figure [21](#_bookmark32) représente l’affichage du fichier ClientsIndex.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.028.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.028.png)
 
 
 **Fig. 21 : Affichage du fichier ClientsIndex**
@@ -290,7 +290,7 @@ La figure [20](#_bookmark31) représente l’affichage du contenu du fichier Cli
 
 <a name="_bookmark32"></a>Grace à cette application, le chef d’agence a la main de modifier les données d’un client à partir de sa position dans le fichier comme illustre la figure [22 .](#_bookmark34)
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.029.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.029.png)
 
 
 
@@ -319,7 +319,7 @@ La figure [20](#_bookmark31) représente l’affichage du contenu du fichier Cli
 
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.030.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.030.png)
 
 
 
@@ -332,11 +332,11 @@ La figure [20](#_bookmark31) représente l’affichage du contenu du fichier Cli
       0. ##### **Remplissage**
 Ci-joint la figure [29](#_bookmark42) montre le code de remplissage du tableau voitures.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.031.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.031.png)
 
 <a name="_bookmark37"></a>**Fig. 24 : Code du tableau remplissage des voitures**
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.032.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.032.png)
 
 <a name="_bookmark38"></a>**Fig. 25 : Exécution du remplissage du tableau voitures**
 
@@ -359,11 +359,11 @@ Ci-joint la figure [29](#_bookmark42) montre le code de remplissage du tableau v
 Ci-joint le code de modification d’une voiture
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.033.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.033.jpeg)
 
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.034.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.034.jpeg)
 
 
 
@@ -387,7 +387,7 @@ Ci-joint le code de modification d’une voiture
 
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.035.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.035.png)
 
 
 
@@ -432,7 +432,7 @@ Ci-joint le code de modification d’une voiture
 0. ##### <a name="_bookmark40"></a>**Suppression**
 Ci-joint la figure [29](#_bookmark42) montre le code de suppression d’une voiture.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.036.jpeg)![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.037.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.036.jpeg)![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.037.jpeg)
 
 
 
@@ -468,7 +468,7 @@ Ci-joint la figure [29](#_bookmark42) montre le code de suppression d’une voit
 
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.038.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.038.png)
 
 <a name="_bookmark43"></a><a name="_bookmark41"></a><a name="_bookmark42"></a>**Fig. 29 : Exécution de la suppression d’une voiture**
 
@@ -476,7 +476,7 @@ Ci-joint la figure [29](#_bookmark42) montre le code de suppression d’une voit
    0. ##### **Remplissage**
 Ci-joint la figure [33](#_bookmark47) montre le code de remplissage du tableau des clients.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.039.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.039.jpeg)
 
 
 
@@ -484,19 +484,19 @@ Ci-joint la figure [33](#_bookmark47) montre le code de remplissage du tableau d
 <a name="_bookmark44"></a>**Fig. 30 : Code de remplissage du tableau clients**
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.040.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.040.png)
 
 <a name="_bookmark45"></a>**Fig. 31 : Exécution du remplissage du tableau clients**
 
 0. ##### **Affichage**
 Ci-joint la figure [33](#_bookmark47) montre le code d’affichage du tableau des clients.
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.041.jpeg)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.041.jpeg)
 
 
 <a name="_bookmark46"></a>**Fig. 32 : Code d’affichage du tableau clients**
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.042.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.042.png)
 
 
 
@@ -522,7 +522,7 @@ Ci-joint la figure [33](#_bookmark47) montre le code d’affichage du tableau de
 
 
 0. ##### **Le client qui a le nombre de locations le plus élevé**
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.043.jpeg)![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.044.jpeg)Ci-joint la figure [35](#_bookmark49) montre le code d’affichage du tableau des clients.
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.043.jpeg)![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.044.jpeg)Ci-joint la figure [35](#_bookmark49) montre le code d’affichage du tableau des clients.
 
 
 
@@ -554,7 +554,7 @@ Ci-joint la figure [33](#_bookmark47) montre le code d’affichage du tableau de
 
 
 
-![](docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.045.png)
+![](Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.045.png)
 
 <a name="_bookmark48"></a><a name="_bookmark49"></a>**Fig. 35 : Exécution d’affichage du client qui a le plus grand nombre de locations**
 
@@ -577,5 +577,5 @@ Travailler en langage C m’a permis de maîtriser les aspects fondamentaux de l
 
 # <a name="annexes"></a><a name="_bookmark51"></a>**Annexes**
 
-[ref1]: docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.001.png
-[ref2]: docs/Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.003.png
+[ref1]: Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.001.png
+[ref2]: Aspose.Words.5ea7dd9a-2e8c-4dda-9a21-72bfc151e25a.003.png
